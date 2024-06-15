@@ -1,0 +1,80 @@
+.container{
+    background-color: snow;
+    width: 400px;
+    padding: 200px 35px;
+    border-radius: 10px;
+    position: absolute;
+    inset: 25% 25% 25% 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.textplace label{
+ font-size: 18px;
+ font-weight: bold;
+ top: 5%;
+}
+
+.btn{
+    position: absolute;
+    bottom:65%;
+    transition: 0.25s;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;    
+    
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+
+    
+}
+.btn:hover{
+    color: white;
+    background-color: green;
+    box-shadow: 2px 2px 5px black;
+}
+.navbar{
+    border-radius: 0%;
+}
+.navbar h1{
+    font-size: 30px;
+    color: beige;
+    padding-left: 10px;
+}
+
+
+
+
+
+body{
+    background-color: rgb(135, 133, 133);
+}
+
+.textplace{
+    position: absolute;
+    bottom: 80%;
+    width: 330px;
+}
+
+#qrcode{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    
+    
+    
+
+}
+.footer p{
+    position: absolute;
+    top: 96%;
+    left: 90%;
+}
