@@ -1,5 +1,7 @@
 # QR Code Generator
 
+## Test Here: https://qr-code-generator-bice-chi.vercel.app/
+
 ## Overview
 
 This project is a web-based application that allows users to generate QR codes for various inputs. The QR Code Generator is built using HTML, CSS, JavaScript, and Bootstrap, and it leverages a QR code generation API to create QR codes dynamically based on user input.
